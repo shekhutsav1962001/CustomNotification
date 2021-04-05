@@ -25,6 +25,7 @@ body {
   cursor:pointer;
   font-size:1.5rem;
   font-weight:bold;
+  z-index: -1;
 }
 .btn:focus{
   outline:none;
@@ -52,6 +53,7 @@ body {
   white-space:nowrap;
   overflow:hidden ;
   text-overflow: ellipsis;
+  z-index: 1;
 }
 .toast.info{
   color:#0278ae;

@@ -25,7 +25,6 @@ body {
   cursor:pointer;
   font-size:1.5rem;
   font-weight:bold;
-  z-index: -1;
 }
 .btn:focus{
   outline:none;
